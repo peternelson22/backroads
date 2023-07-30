@@ -1,4 +1,6 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
+import { memo } from 'react';
 import { socialLinks } from '../data';
 
 const SocialLinks = ({ classIcons, classIcon }) => {
@@ -19,4 +21,4 @@ const SocialLinks = ({ classIcons, classIcon }) => {
     </ul>
   );
 };
-export default SocialLinks;
+export default memo(SocialLinks);

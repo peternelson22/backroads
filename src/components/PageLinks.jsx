@@ -1,4 +1,6 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
+import { memo } from 'react';
 import { pageLinks } from '../data';
 
 const PageLinks = ({ id, classLink, classLinks }) => {
@@ -14,4 +16,4 @@ const PageLinks = ({ id, classLink, classLinks }) => {
     </ul>
   );
 };
-export default PageLinks;
+export default memo(PageLinks);

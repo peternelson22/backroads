@@ -1,4 +1,5 @@
 import logo from '../assets/images/logo.svg';
+import Login from './Login';
 import PageLinks from './PageLinks';
 import SocialLinks from './SocialLinks';
 
@@ -15,6 +16,7 @@ const Navbar = () => {
         <PageLinks id='nav-links' classLinks='nav-links' classLink='nav-link' />
 
         <SocialLinks classIcons='nav-icons' classIcon='nav-icon' />
+        <Login />
       </div>
     </nav>
   );

@@ -135,6 +135,10 @@ p {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
+.btn-name {
+  padding: 0.25rem 0.5rem;
+  transition: none;
+}
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
